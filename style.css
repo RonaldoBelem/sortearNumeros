@@ -24,7 +24,8 @@ body{
 
 .container{
     background-color: var(--cor2);
-    width: 400px;
+    margin: 0 3px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     border: 1px solid;
