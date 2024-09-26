@@ -15,7 +15,7 @@ box-sizing: border-box;
 }
 body{
     background-color: var(--cor8);
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
