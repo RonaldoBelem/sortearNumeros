@@ -6,9 +6,9 @@ div.innerHTML = `
 <div class="container">
     <section>
         <label>Quantidade de Numeros:</label>
-        <input id="quantidade" type="number">
+        <input id="quantidade" type="number" min="0" placeholder="Digite um número positivo">
         <label>Numeros de Dezenas:</label>
-        <input id="numero" type="number">
+        <input id="numero" type="number" min="0" placeholder="Digite um número positivo">
         <button id="btn">Gerar Numeros</button>
     </section>
     <section>
@@ -28,10 +28,10 @@ btn.addEventListener("click", () => {
   const quantidade = parseInt(input.value);
 
 
-  const numeros = [];
-  for (let i = 0; i < quantidade; i++) {
-    numeros.push(Math.floor(Math.random() * quantidadeTotalNumeros) + 1); // Sorteia números entre 1 e 100
-  }
+  const numeros = [];   
+    for (let i = 0; i < quantidade; i++) {
+      numeros.push(Math.floor(Math.random() * quantidadeTotalNumeros) + 1); 
+    }
 
   numerosSorteados.textContent = `Numeros Sorteados: ${numeros.join(",  ")}`;
 });
