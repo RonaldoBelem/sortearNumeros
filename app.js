@@ -6,9 +6,9 @@ div.innerHTML = `
 <div class="container">
     <section>
         <label>Quantidade de Numeros:</label>
-        <input id="quantidade" type="number" min="0" placeholder="Digite um número positivo">
+        <input id="quantidade" type="number" min="0" placeholder="Digite um número positivo" >
         <label>Numeros de Dezenas:</label>
-        <input id="numero" type="number" min="0" placeholder="Digite um número positivo">
+        <input id="numero" type="number" min="0" placeholder="Digite um número positivo" >
         <button id="btn">Gerar Numeros</button>
     </section>
     <section>
