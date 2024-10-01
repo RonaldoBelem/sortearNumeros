@@ -19,7 +19,7 @@ body{
 
 .box{
     display: flex;
-    height: 600px;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -29,7 +29,7 @@ body{
     background-color: var(--cor2);
     margin: 0 3px;
     max-width: 500px;
-    max-height: 500px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     border: 1px solid;
@@ -82,9 +82,10 @@ button{
     align-items: center;
     margin: 0 3px;
     max-width: 500px;
-    max-height: 500px;
+    height: max-content;
     border: 1px solid;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .popup_resultado{
@@ -95,5 +96,5 @@ button{
 #resultado{
     font-weight: bolder;
     padding: 0;
-    font-size: 70px;
+    font-size: 50px;
 }
