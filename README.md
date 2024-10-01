@@ -9,11 +9,6 @@ Este projeto é uma aplicação JavaScript que permite gerar números aleatório
 - Exibe os números sorteados em um popup após a contagem regressiva.
 - Opção de realizar um novo sorteio clicando no botão "Novo Sorteio".
 
-## Como Usar
-
-1. Clone ou copie o código para o seu projeto.
-2. Adicione o código JavaScript em um arquivo `.js` ou dentro de uma página HTML.
-3. Abra a página no navegador para visualizar a interface e interagir com o gerador de números.
 
 ### Exemplo de Uso
 
