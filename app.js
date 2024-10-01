@@ -46,12 +46,14 @@ btn.addEventListener("click", () => {
   function contagemRegressiva() {
     if (cont >= 0) {
       contagem.innerHTML="Aguarde a Contagem"
+      novoSorteio.innerHTML=""
       resultado.style.color="red"
       resultado.innerHTML=cont
        cont--   
     }
     else{
       contagem.innerHTML="Fechar"
+      novoSorteio.innerHTML="Novo Sorteio"
       resultado.style.color="white"
       resultado.innerHTML= ` ${numeros.join(", ")}`;
       resultado.style.textAlign="center"
@@ -87,12 +89,14 @@ novoSorteio.addEventListener("click", () => {
   function contagemRegressiva() {
     if (cont >= 0) {
       contagem.innerHTML="Aguarde a Contagem"
+      novoSorteio.innerHTML=""
       resultado.style.color="red"
       resultado.innerHTML=cont
-       cont--   
+      cont--   
     }
     else{
       contagem.innerHTML="Fechar"
+      novoSorteio.innerHTML="Novo Sorteio"
       resultado.style.color="white"
       resultado.innerHTML= ` ${numeros.join(", ")}`;
       resultado.style.textAlign="center"
