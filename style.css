@@ -1,102 +1,112 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
---cor1: #012030 ;
---cor2: #13678A ;
---cor3: #45C4B0 ;
---cor4: #9AEBA3 ;
---cor5: #DAFDBA ;
---cor6: white ;
---cor7: black ;
---cor8: #13668a4f ;
-
+  --cor1: #012030;
+  --cor2: #13678a;
+  --cor3: #45c4b0;
+  --cor4: #9aeba3;
+  --cor5: #dafdba;
+  --cor6: white;
+  --cor7: black;
+  --cor8: #13668a4f;
 }
-body{
-   background-color: var(--cor8);    
-}
-
-.box{
-    display: flex;
-    min-height: 600px;
-    justify-content: center;
-    align-items: center;
+body {
+  background-color: var(--cor8);
 }
 
-.container{
-    position: absolute;
-    background-color: var(--cor2);
-    margin: 0 3px;
-    max-width: 500px;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 20px;
+.box {
+  display: flex;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
 }
 
-input{
-    background-color: var(--cor6);
-    width: 100%;
-    margin-top:10px ;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 5px;
-    border-radius: 7px;
+.container {
+  position: absolute;
+  background-color: var(--cor2);
+  margin: 0 3px;
+  max-width: 500px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-label{
-    font-size: 20px;
-    color: var(--cor6);
-}
-button{
-    background-color: var(--cor6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--cor1);
-    margin-top: 20px;
-    font-size: 20px;
-    width: 100%;
-    font-weight: bolder;
-    padding: 10px 0;
-    border-radius: 7px;
-}
-#numerosSorteados{
-    color: var(--cor6);
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    font-weight: bolder ;
-    
+input {
+  background-color: var(--cor6);
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 7px;
 }
 
-#popup{
-    position: relative;
-    background-color: var(--cor1);
-    display: none;
-    color: var(--cor6);
-    flex-direction: column;
-    align-items: center;
-    margin: 0 3px;
-    max-width: 500px;
-    height: max-content;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 20px;
+label {
+  font-size: 20px;
+  color: var(--cor6);
+}
+button {
+  background-color: var(--cor6);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--cor1);
+  margin-top: 20px;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bolder;
+  padding: 10px 0;
+  border-radius: 7px;
+}
+#numerosSorteados {
+  color: var(--cor6);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-.popup_resultado{
-    padding: 35px;
-    font-size: 25px;
+#popup {
+  position: relative;
+  background-color: var(--cor1);
+  display: none;
+  color: var(--cor6);
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3px;
+  max-width: 500px;
+  min-width: 300px;
+  height: max-content;
+  border: 1px solid var(--cor5);
+  border-radius: 10px;
+  padding: 20px;
 }
 
-#resultado{
-    font-weight: bolder;
-    padding: 0;
-    font-size: 60px;
+.popup_resultado {
+  padding: 35px;
+  font-size: 25px;
 }
 
+#resultado {
+  font-weight: bolder;
+  padding: 0;
+  font-size: 60px;
+}
 
+#contagem:hover {
+  text-align: center;
+  width: 100%;
+  border: 1px solid var(--cor2);
+  border-radius: 8px ;
+}
+#novoSorteio:hover {
+  text-align: center;
+  width: 100%;
+  border: 1px solid var(--cor2);
+  border-radius: 8px ;
+}
